@@ -117,6 +117,40 @@
                     }
                 }
             }
+            .serach{
+                border-bottom: 1px solid gray;
+                .searchForm{
+                    padding: 10px;
+                    input{
+                        background-color: transparent;
+                        border: none;
+                        color: white;
+                        outline: none;
+                        &::placeholder{
+                            color: lightgrey;
+                        }
+                    }
+                }
+            }
+            .userChat{
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: white;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: #2f2d52;
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+            }
         }
         .chat{
             flex: 2;
