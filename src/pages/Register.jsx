@@ -29,7 +29,6 @@ function Register() {
             await updateProfile(res.user,{
               displayName,
               photoURL:downloadURL,
-              
             })
           });
         }
